@@ -6,6 +6,14 @@ class Poller {
         this.timeout = timeout;
     }
 
+    start(){
+        
+    }
+
+    stop(){
+
+    }
+
 
 }
 
