@@ -1,0 +1,34 @@
+{
+  "name": "polljs",
+  "version": "0.1.0",
+  "description": "Asyncronous network poller ",
+  "main": "index.js",
+  "scripts": {
+    "bump-major": "bumped release major",
+    "bump-minor": "bumped release minor",
+    "bump-patch": "bumped release patch",
+    "build": "babel index.js -d dist",
+    "test": "yarn run build && nyc --reporter=html --reporter=text mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    },
+  "repository": "git+https://github.com/mpomerant/polljs.git",
+  "author": "Mark Pomerant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpomerant/polljs/issues"
+  },
+  "homepage": "https://github.com/mpomerant/polljs#readme",
+  "private": false,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bumped": "^0.10.10",
+    "bumped-terminal": "^0.7.5",
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^13.0.1"
+  }
+}
