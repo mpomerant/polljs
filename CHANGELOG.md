@@ -1,3 +1,11 @@
+<a name="0.2.4"></a>
+## <small>0.2.4 (2018-09-14)</small>
+
+* update test execution ([dcc42b3](https://github.com/mpomerant/polljs/commit/dcc42b3))
+* update test script ([e072674](https://github.com/mpomerant/polljs/commit/e072674))
+
+
+
 <a name="0.2.3"></a>
 ## <small>0.2.3 (2018-09-14)</small>
 
