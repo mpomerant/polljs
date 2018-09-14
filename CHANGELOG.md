@@ -1,3 +1,10 @@
+<a name="0.2.5"></a>
+## <small>0.2.5 (2018-09-14)</small>
+
+* enable npm publish ([45e1bc9](https://github.com/mpomerant/polljs/commit/45e1bc9))
+
+
+
 <a name="0.2.4"></a>
 ## <small>0.2.4 (2018-09-14)</small>
 
