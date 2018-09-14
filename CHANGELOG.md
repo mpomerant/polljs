@@ -1,3 +1,10 @@
+<a name="0.4.0"></a>
+## 0.4.0 (2018-09-14)
+
+* change package name to @mpomerant/polljs ([42d8ee9](https://github.com/mpomerant/polljs/commit/42d8ee9))
+
+
+
 <a name="0.3.0"></a>
 ## 0.3.0 (2018-09-14)
 

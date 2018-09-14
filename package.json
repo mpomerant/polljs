@@ -2,7 +2,7 @@
   "name": "@mpomerant/polljs",
   "description": "Asyncronous network poller ",
   "homepage": "https://github.com/mpomerant/polljs#readme",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "index.js",
   "author": {
     "email": "mpomerant@gmail.com",
