@@ -1,3 +1,10 @@
+<a name="0.2.3"></a>
+## <small>0.2.3 (2018-09-14)</small>
+
+* update github theme ([938390c](https://github.com/mpomerant/polljs/commit/938390c))
+
+
+
 <a name="0.2.2"></a>
 ## <small>0.2.2 (2018-09-14)</small>
 
