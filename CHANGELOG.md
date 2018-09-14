@@ -1,3 +1,10 @@
+<a name="0.2.7"></a>
+## <small>0.2.7 (2018-09-14)</small>
+
+* update package.json to include email ([69ac601](https://github.com/mpomerant/polljs/commit/69ac601))
+
+
+
 <a name="0.2.6"></a>
 ## <small>0.2.6 (2018-09-14)</small>
 
