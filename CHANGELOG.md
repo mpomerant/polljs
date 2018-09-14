@@ -1,3 +1,10 @@
+<a name="0.2.2"></a>
+## <small>0.2.2 (2018-09-14)</small>
+
+* update readme ([7eba0b0](https://github.com/mpomerant/polljs/commit/7eba0b0))
+
+
+
 <a name="0.2.1"></a>
 ## <small>0.2.1 (2018-09-14)</small>
 

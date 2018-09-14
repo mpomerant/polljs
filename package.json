@@ -2,7 +2,7 @@
   "name": "polljs",
   "description": "Asyncronous network poller ",
   "homepage": "https://github.com/mpomerant/polljs#readme",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "index.js",
   "author": {
     "name": "Mark Pomerant"
