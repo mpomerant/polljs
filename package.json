@@ -1,5 +1,5 @@
 {
-  "name": "polljs",
+  "name": "@mpomerant/polljs",
   "description": "Asyncronous network poller ",
   "homepage": "https://github.com/mpomerant/polljs#readme",
   "version": "0.3.0",
@@ -36,5 +36,6 @@
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "test-nyc": "nyc --reporter=html --reporter=text mocha"
   },
+  "private": false,
   "license": "MIT"
 }
