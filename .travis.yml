@@ -2,14 +2,14 @@ language: node_js
 node_js:
 - '8'
 script:
-    - yarn run build
-    - yarn run test-nyc
-    - yarn run coverage
+- yarn run build
+- yarn run test-nyc
+- yarn run coverage
 deploy:
-    provider: npm
-    email: mpomerant@gmail.com
-    skip_cleanup: true
-    api_key:
-        secure: DtqkcVLg+JVIEzq+Swz7oR4gdbyHJuTGEKuhx8jBijPC8p8M5j1+XSjhky1NRCKBCwK6BzR/wHxuhI5ofeSoZ2y+L+eLoyzn7mUd50NISJ51QDW2xDoZrjai1tpUKru8QK5Ccd30IRql5dlULY/EU31jSRe+Y/A9iJKW40YktMamV3pXcspUhtljFwzERVKKmEMg98vKNd7MiI/r2o2QpWEyj+v68p/Rz2s2TzrQY9OQ94CSrKmOKbHF5tV6kJJdzuRwNYI3gIcYeZI/Ic2jFGkKfM5FmrCCwqI//o6LwGx6pSl+zmjNEN7ydYkV3sLmON3ljI8/J2sqIX46617h65IJ5XIvWZtzBaMlCwgSTKRBOiDEo6BiyUbzKhPqtcxtWG7L1Ls1gVZ0OhG/zf0kbYQLztC7btNFIvQteC8zNpjJ5n6cuKeqBfLUFKiTnC1Q2hluMSR2pw4qksJVjEOl2omln1GvsIRfBqo1iA59zTwMFWn8ZDv9xwhZa3+YSRVgoXvOeWCEBQtHk6iDyf1RBuKj7c0r9h3e9p3kTyrD27ZXDYchtCxp4UVaoSzwucHS/2PYQmar4gV8u/zg1SgF97tQiDpSyLcQmRI20HxUuT9h7NPny2x0Rmfp/z+HJEs62PEfQcAonOSI61GQDyvH837Ey7HnCuUPXNdPTct28d4=
-    on:
-        tags: true
+  provider: npm
+  email: mpomerant@gmail.com
+  api_key:
+    secure: KrsttY+8Rlc2CLZA00JcLa+VjTqEvVx4mGaqhJQwhj8qo3pyokDIo7u58aDSxl1GyzihF+jWLUYH75qZs7hgY/zmp6ayjolw8KVVSDRWgiHARWX0jHwlCJyB2hQ5UimAfnNT/XexpobbdY9DaoOOTf2A3u+zkYcLndeqi/9TKvhVMBiH/ccGusHnZVuAZlLHc3Z/5BBCbN4tX2ZtQ8wirIdWF/FdcfqClcAbR3OsT2twRJv/0is49gt6oVuSYQ9LcJpS4VUs/NPa6dUMhpNOTpNDr8Fq1Gts4QqaWu/Ky+OrLavrLTNt+XPJXjK2tSyRPfk0WW3dma0VcHBvtSCtoQN6bCzlDfNvd13CqnNO0JmHfAwMG5Rt/h2txHr1aPhw2oeiybopIT7vasoGxpU1RWF57Mb3/D9GMpytUxkIvyFe2/RUom5Bq3hReoOZTrpLDFnTbioC15fdPFXAhPVIbu5vIArkKSmYMxOa1baaTpQAaVMMaQlQmGTL3XmqAuALi/zHgL+o93VtCJoFx556B+LYesLfJ31gkMWeOsAapbEX+unsueml1LIbzQCPtDajl95FFwBEtoacIzluQST4KfLVC4YsSX4HEKEZTXiI4fi938AYTKgJ+Yfy/N/b9hOLr6emnDnph+NrjE7N2MyV+nLD+5tQhbMgZCdOeJLdb78=
+  on:
+    tags: true
+    repo: mpomerant/polljs
