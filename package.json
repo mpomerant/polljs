@@ -5,6 +5,7 @@
   "version": "0.2.6",
   "main": "index.js",
   "author": {
+    "email": "mpomerant@gmail.com",
     "name": "Mark Pomerant"
   },
   "repository": {
@@ -35,6 +36,5 @@
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "test-nyc": "nyc --reporter=html --reporter=text mocha"
   },
-  "private": false,
   "license": "MIT"
 }
