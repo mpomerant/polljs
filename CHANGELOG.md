@@ -1,3 +1,10 @@
+<a name="0.2.6"></a>
+## <small>0.2.6 (2018-09-14)</small>
+
+* add npmignore file ([77b741a](https://github.com/mpomerant/polljs/commit/77b741a))
+
+
+
 <a name="0.2.5"></a>
 ## <small>0.2.5 (2018-09-14)</small>
 
