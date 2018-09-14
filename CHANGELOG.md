@@ -1,3 +1,10 @@
+<a name="0.3.0"></a>
+## 0.3.0 (2018-09-14)
+
+* update npm token to enable publish ([e83f29c](https://github.com/mpomerant/polljs/commit/e83f29c))
+
+
+
 <a name="0.2.7"></a>
 ## <small>0.2.7 (2018-09-14)</small>
 
