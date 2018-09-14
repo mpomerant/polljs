@@ -1,3 +1,10 @@
+<a name="0.4.1"></a>
+## <small>0.4.1 (2018-09-14)</small>
+
+* enable public access for publish ([c229942](https://github.com/mpomerant/polljs/commit/c229942))
+
+
+
 <a name="0.4.0"></a>
 ## 0.4.0 (2018-09-14)
 
