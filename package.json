@@ -31,8 +31,7 @@
     "bump-major": "bumped release major",
     "bump-minor": "bumped release minor",
     "bump-patch": "bumped release patch",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "test": "yarn run build && nyc --reporter=html --reporter=text mocha"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "private": false,
   "license": "MIT"
